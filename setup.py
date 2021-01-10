@@ -32,19 +32,17 @@ if sys.argv[-1] == 'publish':
     sys.exit()
 
 setup(
-    name='certifi',
+    name='certifi-debian',
     version=VERSION,
-    description='Python package for providing Mozilla\'s CA Bundle.',
+    description='Python package for providing Debian like CA Bundle path.',
     long_description=open('README.rst').read(),
-    author='Kenneth Reitz',
-    author_email='me@kennethreitz.com',
+    author='Nicolas Ledez',
+    author_email='pypi-certifi-debian@ledez.net',
     url='https://certifiio.readthedocs.io/en/latest/',
     packages=[
-        'certifi',
+        'certifi-debian',
     ],
     package_dir={'certifi': 'certifi'},
-    package_data={'certifi': ['*.pem']},
-    # data_files=[('certifi', ['certifi/cacert.pem'])],
     include_package_data=True,
     zip_safe=False,
     license='MPL-2.0',
