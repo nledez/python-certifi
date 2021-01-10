@@ -1,3 +1,6 @@
 *.pyc
 MANIFEST
+README.html
 certifi_debian.egg-info/
+build/
+dist/

@@ -37,12 +37,12 @@ setup(
     description='Python package for providing Debian like CA Bundle path.',
     long_description=open('README.rst').read(),
     author='Nicolas Ledez',
-    author_email='pypi-certifi-debian@ledez.net',
-    url='https://certifiio.readthedocs.io/en/latest/',
+    author_email='pypi.python.org@ledez.net',
+    url='https://certifi-debian.readthedocs.io/en/latest/',
     packages=[
         'certifi-debian',
     ],
-    package_dir={'certifi': 'certifi'},
+    package_dir={'certifi-debian': 'certifi'},
     include_package_data=True,
     zip_safe=False,
     license='MPL-2.0',
@@ -62,7 +62,7 @@ setup(
         'Programming Language :: Python :: 3.9',
     ],
     project_urls={
-        'Documentation': 'https://certifiio.readthedocs.io/en/latest/',
-        'Source': 'https://github.com/certifi/python-certifi',
+        'Documentation': 'https://certifi-debian.readthedocs.io/en/latest/',
+        'Source': 'https://github.com/nledez/python-certifi-debian',
     },
 )

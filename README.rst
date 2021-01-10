@@ -1,9 +1,9 @@
 Certifi: Python SSL Certificates for Debian like
 ================================================
 
-`Certifi`_ provides a fork of https://github.com/certifi/python-certifi but use
+`Certifi-debian` provides a fork of https://github.com/certifi/python-certifi but use
 distro bundle for validating the trustworthiness of SSL certificates while
-verifying the identity of TLS hosts. It has been extracted from the `Requests`_
+verifying the identity of TLS hosts. It has been extracted from the `Requests`
 project.
 
 Installation
