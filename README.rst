@@ -17,9 +17,12 @@ project.
 Installation
 ------------
 
-``certifi-debian`` is available on PyPI. Simply install it with ``pip``::
+``certifi-debian`` can't be available on PyPI. Simply install it with ``pip`` and git URL::
 
-    $ pip install certifi-debian
+    $ pip install git+https://github.com/nledez/python-certifi-debian
+
+Or add `git+https://github.com/nledez/python-certifi-debian` to your `requirements.txt` BEFORE
+`requests` or any lib can use `certifi`.
 
 Usage
 -----
