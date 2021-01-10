@@ -1,5 +1,13 @@
-Certifi: Python SSL Certificates for Debian like
-================================================
+.. image:: https://github.com/nledez/python-certifi-debian/workflows/CI/badge.svg
+   :target: https://github.com/nledez/python-certifi-debian/actions
+   :alt: CI
+
+.. image:: https://readthedocs.org/projects/certifi-debian/badge/?version=latest
+   :target: https://certifi-debian.readthedocs.io/en/latest/?badge=latest
+   :alt: Documentation Status
+
+Certifi-debian: Python SSL Certificates for Debian like
+=======================================================
 
 `Certifi-debian` provides a fork of https://github.com/certifi/python-certifi but use
 distro bundle for validating the trustworthiness of SSL certificates while

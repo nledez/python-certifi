@@ -32,7 +32,7 @@ if sys.argv[-1] == 'publish':
     sys.exit()
 
 setup(
-    name='certifi-debian',
+    name='certifi',
     version=VERSION,
     description='Python package for providing Debian like CA Bundle path.',
     long_description=open('README.rst').read(),
@@ -40,9 +40,9 @@ setup(
     author_email='pypi.python.org@ledez.net',
     url='https://certifi-debian.readthedocs.io/en/latest/',
     packages=[
-        'certifi-debian',
+        'certifi',
     ],
-    package_dir={'certifi-debian': 'certifi'},
+    package_dir={'certifi': 'certifi'},
     include_package_data=True,
     zip_safe=False,
     license='MPL-2.0',
